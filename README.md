@@ -27,34 +27,50 @@ J'ai rien à ajouter sur cette partie, les screens parle d'eux meme
 ## Niveau 2
 
 6. Secret retiré du suivi
-galere galere: j'ai commencer par revert mais ca na rien avoir mdr
+
+Galere galere: j'ai commencer par revert mais ca na rien avoir mdr
+
 ![image 8](./img/8.png)
-j'ai ensuite rebase -i sur le premier commit depuis main
-ce qui ma permis d'enlever les commit "oops"
+
+J'ai ensuite rebase -i sur le premier commit depuis main. Ce qui ma permis d'enlever les commit "oops"
+
 ![image 8](./img/9.png)
-j'ai eu une galere avec la branche que j'ai créé mais j'ai reussi finalement a les enlever
-(j'ai rebase comme la branche principal)
+
+J'ai eu une galere avec la branche que j'ai créé mais j'ai reussi finalement a les enlever (j'ai rebase comme la branche principal)
+
 ![image 8](./img/10.png)
-et j'ai mis dans le gitignore "*.env" qui fait plaisir (comme ca il revient pas, au cas ou)
+
+Et j'ai mis dans le gitignore "*.env" qui fait plaisir (comme ca il revient pas, au cas ou)
+
 ![image 8](./img/11.png)
 
 7. Conflit résolu (marqueurs avant, graphe après)
-j'ai créé un conflit simple sur index.html (j'ai changer la meme ligne sur main et ma branch)
+
+J'ai créé un conflit simple sur index.html (j'ai changer la meme ligne sur main et ma branch)
+
 ![image 8](./img/12.png)
-il va falloir me croire mais en gros j'ai bien reussi à merge, j'ai fait le merge grace à visual code et ai donc resolue le conflit
+
+Il va falloir me croire mais en gros j'ai bien reussi à merge, j'ai fait le merge grace à visual code et ai donc resolue le conflit
+
 ![image 8](./img/13.png)
 
 8. Revert du bandeau promo
-regarde pas les commit avant :p regarde juste le revert qui a bien fonctionner :o
+
+Regarde pas les commit avant :p regarde juste le revert qui a bien fonctionner :o
+
 ![image 8](./img/14.png)
 
 9. Issue fermée par une Pull Request
-j'ai créé une "issue #5" puis j'ai fait une pr et je l'ai resolue:
+
+J'ai créé une "issue #5" puis j'ai fait une pr et je l'ai resolue:
+
 ![image 8](./img/15.png)
 ![image 8](./img/16.png)
 
 10. Protection de main et CI au vert
-la derniere modif est obligatoire si tu veux testé si les modif de la branch fonctionne (vu que je suis admin)
+
+La derniere modif est obligatoire si tu veux testé si les modif de la branch fonctionne (vu que je suis admin)
+
 ![image 8](./img/17.png)
 ![image 8](./img/18.png)
 
@@ -64,10 +80,12 @@ la derniere modif est obligatoire si tu veux testé si les modif de la branch fo
 11. Commit distant récupéré et conflit résolu
 ![image 8](./img/19.png)
 ![image 8](./img/20.png)
-et j'ai bien merge du coup
+
+Et j'ai bien merge du coup
 
 12. Bonus
+
 J'ai rajouter quelques features au site: rien de fou mais ca reste une feature
+
 ![image 8](./img/21.png)
 ![image 8](./img/22.png)
-
